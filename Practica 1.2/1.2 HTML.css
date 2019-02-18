@@ -1,0 +1,110 @@
+.web{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.film{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    font-size: 22px;
+    width: 90%;
+    height: 240px;
+}
+.numberFilm{
+    color: black;
+    font-size: 20px;
+    margin-left: 200px;
+    font-weight: bolder;
+}
+.imageFilm{
+    margin-top: 0;
+    margin-left:18px;
+    float:left;
+}
+.infoFilm{
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 250%;
+}
+.filmHeader{
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+}
+.tittle{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.date{
+    margin-left: 7px;
+    margin-top: 7px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.imageCountry{
+    margin-top: 5px;
+    margin-left:7px;
+    width: 20%;
+}
+.director{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 20px;
+}
+.actor{
+    margin-top: 8px;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+}
+.infoValoration{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 240px;
+}
+.valorationNumber{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 40px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #447cad;
+    margin-left: 100px;
+}
+.voteHeader{
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    margin-left: 100px;
+}
+.votesNumber{
+    margin-left: 7px;
+    margin-top: 7px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.imageUser{
+    margin-left:1px;
+    margin-top:5px;
+}
+.hrHorizontal{
+    margin-top:18px;
+    margin-left: 230px;
+    background-color:grey;
+    height: 1px;
+    width: 58%;
+}
